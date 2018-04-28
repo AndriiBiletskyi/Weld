@@ -1,0 +1,18 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+set_position                                                      0x0500       4
+current_position                                                  0x0504       4
+feed                                                              0x0508       4
+feed_show                                                         0x050C       4
+num                                                               0x0510       1
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+feed_eep                                                          0x0000       2
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+enable                                                            R5           1
